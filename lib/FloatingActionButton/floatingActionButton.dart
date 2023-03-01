@@ -65,7 +65,7 @@ class _SelectContactState extends State<SelectContact>
                 child: ButtonCard(icon: Icons.group,name: "New group",));
             }
             else if(index==1){
-              return ButtonCard(icon: Icons.person_add,name: "New Contact",);
+              return ButtonCard(icon: Icons.person_add,name: "New Contact che ho",);
             }
             return ContactCard(contact: contacts[index-2],);
           },
